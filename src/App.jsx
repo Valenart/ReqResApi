@@ -39,6 +39,7 @@ function App() {
       </div>
       <h1>Aplicação simples para mostrar o consumo da API do ReqRes</h1>
 
+
       <div style={{ display: 'flex', flexDirection: 'row', flexWrap: 'wrap', gap: '20px', justifyContent: 'center' }}>
         {data.map((user) => (
           <div key={user.id} style={{ width: '300px', display: 'flex', justifyContent: 'center', alignItems: 'center', flexDirection: 'column', border: '1px solid #ccc', borderRadius: '10px', padding: '10px', backgroundColor: '#3e495eff' }}>
